@@ -25,3 +25,37 @@ p {
   line-height: 2;
   margin-top: 15px;
 }
+
+ul > li {
+  list-style: none;
+}
+
+a:link,
+a:visited {
+  color: black
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 5%;
+}
+
+.sub {
+  font-size: 14px;
+}
+
+.connect-linkedin {
+  margin-right: 15px;
+}
+
+.disclaimer {
+  text-align: center;
+  font-size: 12px;
+}
+
+.homepage {
+  border-bottom: 1px solid black;
+}
