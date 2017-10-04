@@ -1,0 +1,3 @@
+# Make pages render without their extension
+
+Options +MultiViews

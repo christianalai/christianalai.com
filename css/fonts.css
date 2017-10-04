@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PorterMedium';
+    src: url('fonts/PorterMedium.eot');
+    src: url('fonts/PorterMedium.eot') format('embedded-opentype'), url('fonts/PorterMedium.woff2') format('woff2'), url('fonts/PorterMedium.woff') format('woff'), url('fonts/PorterMedium.ttf') format('truetype'), url('fonts/PorterMedium.svg#PorterMedium') format('svg')
+}
+@font-face {
+    font-family: 'PorterBold';
+    src: url('fonts/PorterBold.eot');
+    src: url('fonts/PorterBold.eot') format('embedded-opentype'), url('fonts/PorterBold.woff2') format('woff2'), url('fonts/PorterBold.woff') format('woff'), url('fonts/PorterBold.ttf') format('truetype'), url('fonts/PorterBold.svg#PorterBold') format('svg')
+}

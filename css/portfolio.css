@@ -1,0 +1,27 @@
+.portfolio {
+  background-image: none;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  margin: 5% auto;
+}
+
+h2, h4 {
+  font-family: 'PorterBold';
+  background-color: #F0F1F3;
+  padding: 13px 15px 5px;
+  display: inline-block;
+}
+
+img {
+  background-color: #F0F1F3;
+}
+
+hr {
+  margin: 30px auto;
+}
+
+p {
+  line-height: 2;
+  margin-top: 15px;
+}

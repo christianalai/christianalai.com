@@ -1,1 +1,315 @@
-html{color:#222;font-size:1em;line-height:1.4}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}audio,canvas,iframe,img,svg,video{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.browserupgrade{margin:0.2em 0;background:#ccc;color:#000;padding:0.2em 0}.hidden{display:none !important}.visuallyhidden{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{clip:auto;height:auto;margin:0;overflow:visible;position:static;width:auto}.invisible{visibility:hidden}.clearfix:before,.clearfix:after{content:" ";display:table}.clearfix:after{clear:both}@media print{*,*:before,*:after,*:first-letter,*:first-line{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}a[href^="#"]:after,a[href^="javascript:"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}p,h2,h3{orphans:3;widows:3}h2,h3{page-break-after:avoid}}@font-face{font-family:'PorterMedium';src:url('fonts/PorterMedium.eot');src:url('fonts/PorterMedium.eot') format('embedded-opentype'), url('fonts/PorterMedium.woff2') format('woff2'), url('fonts/PorterMedium.woff') format('woff'), url('fonts/PorterMedium.ttf') format('truetype'), url('fonts/PorterMedium.svg#PorterMedium') format('svg')}@font-face{font-family:'PorterBold';src:url('fonts/PorterBold.eot');src:url('fonts/PorterBold.eot') format('embedded-opentype'), url('fonts/PorterBold.woff2') format('woff2'), url('fonts/PorterBold.woff') format('woff'), url('fonts/PorterBold.ttf') format('truetype'), url('fonts/PorterBold.svg#PorterBold') format('svg')}body{background-image:url('../img/bench.jpg');-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-repeat:no-repeat;background-attachment:fixed;font-family:'PorterBold', 'Lucida Console';color:black}.container{display:inline-block;margin:7% 0 0 3%}.header{max-height:170px;margin-left:3%}.header h1{display:inline-block;padding:10px 15px 0 15px;background-color:white;font-weight:100;font-size:45px}.angled-border-left{content:'';position:relative;bottom:0;right:0;width:0;height:0;border-style:solid;border-width:0 0 59px 34px;top:89px;left:-34px;border-color:transparent transparent white transparent}.angled-border-right{content:'';position:relative;bottom:0;right:0;width:0;height:0;border-style:solid;border-width:0 12px 59px 59px;top:-89px;left:397px;border-color:transparent transparent transparent white}.content{font-family:'PorterMedium';display:inline-block;width:60%}.content p{background-color:white;display:inline-block;margin-bottom:10px;padding:0 10px}.content p:nth-child(5),.content p:nth-child(8){margin-top:20px}.email-text{background-color:white;border-color:black}.bold-text{font-family:'PorterBold';font-size:18px}.button--itzel{display:inline;float:none;min-width:0;height:35px;width:70px;padding:0;margin:0}.button > span{padding:0}.button--itzel .button__icon{width:100%;top:47px}.button--itzel < span{padding:0}.clicked-on{background-color:#FBE17B}.clicked-on:before{border:none}.copied-text{font-family:'PorterBold';font-style:normal;font-size:11px}.transition{-webkit-transition:-webkit-transform 0.3s, opacity 0.3s;transition:transform 0.3s, opacity 0.3s;-webkit-transition-delay:0.3s;transition-delay:0.3s}.text-positioner{padding:0 !important;top:28px !important}.connect{display:block;margin:7% 0 0 50%}a:link,a:visited{color:black}@media (min-width: 320px) and (max-width: 549px){.header{width:400px;margin-left:13%}.header h1{font-size:35px}.angled-border-left{border-width:0 0 49px 38px;top:71px;left:-37px}.angled-border-right{border-width:0 0px 48px 55px;top:-72px;left:315px}.content{width:100%}}@media (min-width: 550px) and (max-width: 767px){.container{margin-left:15%}.content{width:100%;margin-left:-5%}}@media (min-width: 768px) and (max-width: 1023px){.header{margin-left:21%}.content{margin-left:15%;width:70%}.angled-border-left{border-width:0 0 59px 34px;left:-34px;top:90px}.angled-border-right{border-width:0 0 59px 59px;left:398px;top:-88px}}@media (min-width: 1024px){.connect{margin-left:0}}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4
+}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+::selection {
+    background: #b3d4fc;
+    text-shadow: none
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+textarea {
+    resize: vertical
+}
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0
+}
+.hidden {
+    display: none !important
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto
+}
+.invisible {
+    visibility: hidden
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table
+}
+.clearfix:after {
+    clear: both
+}
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important
+    }
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")"
+    }
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: ""
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid
+    }
+    thead {
+        display: table-header-group
+    }
+    tr,
+    img {
+        page-break-inside: avoid
+    }
+    img {
+        max-width: 100% !important
+    }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3
+    }
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+}
+@font-face {
+    font-family: 'PorterMedium';
+    src: url('fonts/PorterMedium.eot');
+    src: url('fonts/PorterMedium.eot') format('embedded-opentype'), url('fonts/PorterMedium.woff2') format('woff2'), url('fonts/PorterMedium.woff') format('woff'), url('fonts/PorterMedium.ttf') format('truetype'), url('fonts/PorterMedium.svg#PorterMedium') format('svg')
+}
+@font-face {
+    font-family: 'PorterBold';
+    src: url('fonts/PorterBold.eot');
+    src: url('fonts/PorterBold.eot') format('embedded-opentype'), url('fonts/PorterBold.woff2') format('woff2'), url('fonts/PorterBold.woff') format('woff'), url('fonts/PorterBold.ttf') format('truetype'), url('fonts/PorterBold.svg#PorterBold') format('svg')
+}
+body {
+    background-image: url('../img/bench.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'PorterBold', 'Lucida Console';
+    color: black
+}
+.container {
+    margin: 7% 0 0 3%
+}
+header {
+    max-height: 170px;
+    margin-left: 3%
+}
+header h1 {
+    display: inline-block;
+    padding: 10px 15px 0 15px;
+    background-color: white;
+    font-weight: 100;
+    font-size: 45px
+}
+.angled-border-left {
+    content: '';
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 59px 34px;
+    top: 89px;
+    left: -34px;
+    border-color: transparent transparent white transparent
+}
+.angled-border-right {
+    content: '';
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 12px 59px 59px;
+    top: -89px;
+    left: 397px;
+    border-color: transparent transparent transparent white
+}
+section {
+    font-family: 'PorterMedium';
+    display: inline-block;
+    width: 60%
+}
+section p {
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0 10px
+}
+section p:nth-child(5),
+section p:nth-child(8) {
+    margin-top: 20px
+}
+.email-text {
+    background-color: white;
+    border-color: black
+}
+.bold-text {
+    font-family: 'PorterBold';
+    font-size: 18px
+}
+.button--itzel {
+    display: inline;
+    float: none;
+    min-width: 0;
+    height: 35px;
+    width: 70px;
+    padding: 0;
+    margin: 0
+}
+.button > span {
+    padding: 0
+}
+.button--itzel .button__icon {
+    width: 100%;
+    top: 47px
+}
+.button--itzel < span {
+    padding: 0
+}
+.clicked-on {
+    background-color: #FBE17B
+}
+.clicked-on:before {
+    border: none
+}
+.copied-text {
+    font-family: 'PorterBold';
+    font-style: normal;
+    font-size: 11px
+}
+.transition {
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+    transition: transform 0.3s, opacity 0.3s;
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s
+}
+.text-positioner {
+    padding: 0 !important;
+    top: 28px !important;
+}
+.connect {
+    margin: 5% 0 8% 40%
+}
+.connect-linkedin {
+    margin-right: 15px
+}
+a:link,
+a:visited {
+    color: black
+}
+@media (min-width: 320px) and (max-width: 549px) {
+    header {
+        width: 400px;
+    }
+    header h1 {
+        font-size: 35px
+    }
+    .angled-border-left {
+        border-width: 0 0 49px 38px;
+        top: 71px;
+        left: -37px
+    }
+    .angled-border-right {
+        border-width: 0 0px 48px 55px;
+        top: -72px;
+        left: 315px
+    }
+    section {
+        width: 100%
+    }
+}
+@media (min-width: 550px) and (max-width: 767px) {
+    .container {
+        margin-left: 15%
+    }
+    section {
+        width: 100%;
+        margin-left: -5%
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    header {
+        margin-left: 21%
+    }
+    section {
+        margin-left: 15%;
+        width: 70%
+    }
+    .angled-border-left {
+        border-width: 0 0 59px 34px;
+        left: -34px;
+        top: 90px
+    }
+    .angled-border-right {
+        border-width: 0 0 59px 59px;
+        left: 398px;
+        top: -88px
+    }
+}
+@media (min-width: 1024px) {
+    .connect {
+        margin-left: 0
+    }
+}
