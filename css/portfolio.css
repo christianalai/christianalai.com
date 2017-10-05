@@ -63,3 +63,13 @@ footer {
 .homepage {
   border-bottom: 1px solid black;
 }
+
+.connect {
+  margin: 4% 0 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 549px) {
+  .connect {
+    margin: 12% 0;
+  }
+}
