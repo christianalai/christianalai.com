@@ -15,6 +15,7 @@ h2, h4 {
 
 img {
   background-color: #F0F1F3;
+  margin: 3% 0;
 }
 
 hr {
@@ -43,10 +44,6 @@ footer {
   margin-top: 5%;
 }
 
-.between {
-  margin: 3% 0;
-}
-
 .sub {
   font-size: 14px;
 }
@@ -71,5 +68,11 @@ footer {
 @media (min-width: 320px) and (max-width: 549px) {
   .connect {
     margin: 12% 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    margin: 1% 0;
   }
 }
