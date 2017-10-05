@@ -43,12 +43,16 @@ footer {
   margin-top: 5%;
 }
 
+.between {
+  margin: 3% 0;
+}
+
 .sub {
   font-size: 14px;
 }
 
 .connect-linkedin {
-  margin-right: 15px;
+  margin: 0 15px;
 }
 
 .disclaimer {
