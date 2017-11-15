@@ -18,3 +18,7 @@ h1 {
 .seat-selection {
   margin-top: 10%;
 }
+
+ul > li {
+  list-style: none;
+}
