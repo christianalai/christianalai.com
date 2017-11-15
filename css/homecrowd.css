@@ -16,7 +16,29 @@ ul > li {
   margin: 3% 0;
 }
 
+.hi-fi-prototype-container {
+  margin-top: 5%;
+}
+
 .hi-fi-prototypes {
-  width: 24%;
+  width: 33%;
   cursor: pointer;
+}
+
+.homecrowd-homepage-section {
+  margin-top: 5%;
+}
+
+.homecrowd-homepage-section .homecrowd-homepage-section-text {
+  width: 48%;
+  float: right;
+}
+
+.homecrowd-homepage-section img {
+  width: 48%;
+  margin-top: 0;
+}
+
+.homecrowd-header-container img {
+  width: 100%;
 }
