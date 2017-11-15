@@ -1,0 +1,20 @@
+h1 {
+  font-family: 'PorterLight';
+  text-align: center;
+  margin: 10% auto;
+}
+.prod-instructions {
+  font-size: 12px;
+}
+
+.prod-instructions a {
+  border-bottom: 1px solid black;
+}
+
+.prod-instructions p {
+  margin: 0;
+}
+
+.seat-selection {
+  margin-top: 10%;
+}

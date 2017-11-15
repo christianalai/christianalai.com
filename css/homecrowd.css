@@ -1,0 +1,22 @@
+ul > li {
+  list-style: none;
+}
+
+.homecrowd ul {
+  padding-left: 0;
+}
+
+.comp-analysis {
+  margin-top: 0;
+}
+
+.user-persona {
+  width: 80%;
+  display: block;
+  margin: 3% 0;
+}
+
+.hi-fi-prototypes {
+  width: 24%;
+  cursor: pointer;
+}

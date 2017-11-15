@@ -4,7 +4,27 @@
     src: url('fonts/PorterMedium.eot') format('embedded-opentype'), url('fonts/PorterMedium.woff2') format('woff2'), url('fonts/PorterMedium.woff') format('woff'), url('fonts/PorterMedium.ttf') format('truetype'), url('fonts/PorterMedium.svg#PorterMedium') format('svg')
 }
 @font-face {
+    font-family: 'PorterLight';
+    src: url('fonts/PorterLight.eot');
+    src: url('fonts/PorterLight.eot') format('embedded-opentype'),
+         url('fonts/PorterLight.woff2') format('woff2'),
+         url('fonts/PorterLight.woff') format('woff'),
+         url('fonts/PorterLight.ttf') format('truetype'),
+         url('fonts/PorterLight.svg#PorterLight') format('svg');
+}
+@font-face {
     font-family: 'PorterBold';
     src: url('fonts/PorterBold.eot');
     src: url('fonts/PorterBold.eot') format('embedded-opentype'), url('fonts/PorterBold.woff2') format('woff2'), url('fonts/PorterBold.woff') format('woff'), url('fonts/PorterBold.ttf') format('truetype'), url('fonts/PorterBold.svg#PorterBold') format('svg')
+}
+@font-face {
+    font-family: 'chapazaregular';
+    src: url('fonts/chapaza-webfont.eot');
+    src: url('fonts/chapaza-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chapaza-webfont.woff2') format('woff2'),
+         url('fonts/chapaza-webfont.woff') format('woff'),
+         url('fonts/chapaza-webfont.ttf') format('truetype'),
+         url('fonts/chapaza-webfont.svg#chapazaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
