@@ -1,3 +1,7 @@
 # Make pages render without their extension
 
 Options +MultiViews
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^portfolio.*$ http://christianalai.com/ [R=301,L]
