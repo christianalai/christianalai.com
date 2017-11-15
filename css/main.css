@@ -183,6 +183,10 @@ nav a, .disclaimer a, .content-container a {
     transition: background-position .08s ease-out;
 }
 
+.active {
+  background-position: 0;
+}
+
 a:hover {
   background-position: 0;
 }
