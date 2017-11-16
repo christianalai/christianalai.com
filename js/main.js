@@ -1,1 +1,5 @@
-$(document).ready(function(){new Clipboard('.email-text');$('button').click(function(){$('.button--itzel').addClass('clicked-on');$('.button__icon').append('<div class="copied-text">Copied!</div>').addClass('text-positioner');$('.button__icon').removeClass('fa fa-clipboard')});$('button').mouseup(function(){setTimeout(function(){$('.copied-text').remove();$('.button__icon').removeClass('text-positioner');$('.button--itzel').removeClass('clicked-on');$('.button__icon').addClass('fa fa-clipboard')},1000)})})
+$(document).ready(function() {
+  $(function() {
+      $('body').removeClass('fade-out');
+  });
+})

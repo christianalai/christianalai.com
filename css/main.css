@@ -129,12 +129,19 @@ textarea {
 /*---------------------------------------------------------------------------*/
 html {
   border-right: 40px solid #F0EDED;
+  background-color: white;
 }
 
 body {
   font-family: 'Lora', serif;
   color: #686868;
-  /*border-right: 40px solid #F0EDED;*/
+  opacity: 1;
+  transition: 1s opacity;
+}
+
+body.fade-out {
+  opacity: 0;
+  transition: none;
 }
 
 .wrapper {
@@ -174,7 +181,7 @@ nav a {
 nav a, .disclaimer a, .content-container a {
     color: #231f20;
     background-image: linear-gradient(180deg,transparent 0,#F6DDDC 0);
-    background-position: 0 .8em;
+    background-position: 0 2em;
     background-repeat: no-repeat;
     -webkit-transition: background-position .08s ease-out;
     -ms-transition: background-position .08s ease-out;
@@ -184,7 +191,7 @@ nav a, .disclaimer a, .content-container a {
 }
 
 .active {
-  background-position: 0;
+  background-position: 0 .8em;
 }
 
 a:hover {
@@ -253,6 +260,12 @@ img {
 .connect {
   text-align: center;
   margin-bottom: 1%;
+}
+
+.connect a {
+  /*color: #F25555;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
 }
 
 .disclaimer {
