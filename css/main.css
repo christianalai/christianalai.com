@@ -128,7 +128,6 @@ textarea {
 
 /*---------------------------------------------------------------------------*/
 html {
-  border-right: 40px solid #F0EDED;
   background-color: white;
 }
 
@@ -145,8 +144,17 @@ body.fade-out {
 }
 
 .wrapper {
-  margin: 0 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper p {
+  margin-top: 25%;
+  font-size: 32px;
+  font-weight: bold;
+  color: #262626;
 }
 
 header {
@@ -159,6 +167,12 @@ nav {
   font-family: 'Lora', serif;
   font-size: 18px;
   width: 12%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  nav {
+    width: 50%;
+  }
 }
 
 .nav--work {
