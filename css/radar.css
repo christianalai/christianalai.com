@@ -6,6 +6,10 @@
   margin: 0px;
 }
 
+.radar hr {
+  margin: 5% 0;
+}
+
 .explore-container {
   background-image: linear-gradient(180deg, white 25%, #405de6 25%, #405de6 75%, white 75%);
 }
