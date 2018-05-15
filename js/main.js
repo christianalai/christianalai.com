@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
+  console.log('Sup! I hope to chat with you soon. Email me at hello@christianalai.com!')
   // Fade Out Body
   $(function() {
     $('body').removeClass('fade-out');
@@ -14,5 +15,4 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 
   var typed = new Typed(".typed-element", options);
-  console.log('Sup! I hope to chat with you soon. Email me at hello@christianalai.com!')
 });
