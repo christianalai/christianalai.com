@@ -1,0 +1,218 @@
+/* OVERRIDES */
+body {
+  transition: 1s opacity;
+  opacity: 1;
+  margin: 0;
+}
+
+body.fade-out {
+  transition: none;
+  opacity: 0;
+}
+
+body p {
+  font-family: 'SF Pro Display';
+  font-weight: bold;
+}
+
+p {
+  margin: 0;
+}
+
+a:link, a:visited, a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* BODY */
+.project-container {
+  margin: 10% 5% 0 5%;
+}
+
+.project-container .introduction {
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 64px;
+}
+
+.introduction p {
+  margin: 0;
+  font-weight: normal;
+}
+
+.work-container {
+  margin-top: 20%;
+}
+
+.work-container .selected-work-copy {
+  margin-bottom: 5%;
+  font-weight: 600;
+}
+
+.work-container p {
+  font-weight: normal;
+}
+
+.work-boxes-right {
+  margin-top: 30%;
+}
+
+.work-boxes-right .radar {
+    width: 100%;
+}
+
+.second {
+  margin-top: 7%;
+}
+
+.img-container {
+  display: inline-block;
+  position: relative;
+}
+
+.img-container:hover > .overlay {
+  background-color: #FFFFFF;
+  position: absolute;
+  display: block;
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  transition: opacity 600ms;
+  -webkit-transition: opacity 600ms;
+}
+
+.work-container .copy {
+  text-align : center;
+  position: absolute;
+  text-align: left;
+  display: none;
+  height: 100%;
+  color: #fff;
+  right : 0;
+  left : 0;
+  top: 0;
+}
+
+/*
+@keyframes move {
+  from { margin-left: -10; }
+  to { margin-left: 0; }
+}*/
+
+.img-container:hover .copy {
+  display: block;
+  /*animate: move 500ms;*/
+}
+
+.copy .copy--type p {
+  background-color: #FFFFFF;
+  display: inline-block;
+  margin: 40% 0 2% 0;
+  font-weight: bold;
+  padding: 2% 4%;
+  color: black;
+}
+
+.copy .copy--title h3 {
+  background-color: #EC4557;
+  display: inline-block;
+  letter-spacing: -2px;
+  /*font-style: italic;*/
+  font-weight: bold;
+  margin-bottom: 2%;
+  padding: 2% 4%;
+  color: white;
+}
+
+.copy .copy--summary p {
+  background-color: #EC4557;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 500;
+  padding: 2% 4%;
+  color: white;
+}
+
+.overlay {
+  opacity: 0;
+}
+
+ /*----------------- RESPONSIVE ----------------- */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .project-container .introduction {
+    font-size: 28px;
+  }
+
+  .work-container .copy {
+    margin-left: 4%;
+  }
+
+  .work-container .copy p:first-of-type {
+    font-size: 12px;
+  }
+
+  .work-container .copy p {
+    font-size: 14px;
+  }
+
+  .work-container .copy h3 {
+    font-size: 24px;
+  }
+
+  .work-boxes-right {
+    margin-top: 6.73%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .project-container .introduction {
+    font-size: 48px;
+  }
+
+  .work-boxes-right {
+    margin-top: 8%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project-container {
+    margin: 10% 15% 0 15%;
+  }
+
+  .project-container .introduction {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .project-container .introduction {
+    height: 300px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .project-container {
+    margin: 10% 20% 0 20%;
+  }
+
+  .work-container .copy p:first-of-type {
+    font-size: 16px;
+  }
+
+  .work-container .copy p {
+    font-size: 18px;
+  }
+
+  .work-container .copy h3 {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,24 @@
+.priceline .fine-print {
+  margin-bottom: 5%;
+  font-size: 14px;
+  color: #aeaeae;
+}
+
+.project-footer .about-section {
+  background-color: #ec4557;
+  color: #FFFFFF;
+}
+
+.project-footer .about-section a:link,
+.project-footer .about-section a:visited,
+.project-footer .about-section a:hover {
+  color: #FFFFFF;
+}
+
+/*----------------- RESPONSIVE -----------------*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .priceline .fine-print {
+    margin: 0 8% 5%;
+  }
+}

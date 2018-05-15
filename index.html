@@ -4,30 +4,150 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
-  <meta name="description" content="">
+  <title>Christiana Lai</title>
+  <meta name="description" content="I'm a product designer experienced with UX/UI design. Send an Email or connect with me on LinkedIn or Twitter.">
+  <meta name="keywords" content="Christiana Lai,UX,UI,Product,Designer,Design,Front End,HTML,CSS,JavaScript,Developer,Programmer,Tech,Priceline">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="favicon-32x32.png">
+  <link rel="shortcut icon" type="image/ico" href="favicon-32x32.png">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
+  <script>document.body.className += ' fade-out';</script>
+  <!-- Scripts -->
+<!--   <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script> -->
+
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
+  <script>document.body.className += ' fade-out';</script> -->
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world!</p>
-  <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
-  <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+  <!-- Header -->
+  <header>
+    <nav>
+      <a class="email-link" href="/">hello@christianalai.com</a>
+      <div class="nav-links">
+        <a href="/" title="Work">Work</a>
+        <a href="about.html" title="About">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Body -->
+  <div class="project-container">
+    <div class="introduction">
+      <p><span>I'm a product designer&mdash;</span></p>
+      <p><span>with experience in</span></p>
+      <p><span class="typed-element"></span></p>
+    </div>
+    <div class="work-container">
+      <p class="selected-work-copy">selected work &mdash;</p>
+      <div class="work-boxes row">
+        <div class="work-boxes-left col-md-6">
+          <a class="get-together" href="get-together.html">
+            <div class="img-container">
+              <div class="overlay"></div>
+              <img class="img-fluid" src="img/homepage/Box-GetTogether.jpg" alt="Get Together Case Study">
+              <div class="copy">
+                <div class="copy--type">
+                  <p>iOS</p>
+                </div>
+                <div class="copy--title">
+                  <h3>Get Together</h3>
+                </div>
+                <div class="copy--summary">
+                  <p>Connecting Professionals IRL</p>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a class="priceline" href="priceline.html">
+            <div class="img-container second">
+              <div class="overlay"></div>
+                <img class="img-fluid" src="img/homepage/Box-Priceline.png" alt="Priceline.com Design">
+              <div class="copy">
+                <div class="copy--type">
+                  <p>Responsive Web</p>
+                </div>
+                <div class="copy--title">
+                  <h3>Priceline.com</h3>
+                </div>
+                <div class="copy--summary">
+                  <p>Improving the Booking Experience</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="work-boxes-right col-md-6">
+          <a class="radar" href="radar.html">
+            <div class="img-container">
+              <div class="overlay"></div>
+                <img class="img-fluid" src="img/homepage/Box-Radar.png" alt="Radar Case Study">
+              <div class="copy">
+                <div class="copy--type">
+                  <p>iOS</p>
+                </div>
+                <div class="copy--title">
+                  <h3>Radar</h3>
+                </div>
+                <div class="copy--summary">
+                  <p>Making Instagram your Travel Guide</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="default-footer">
+    <div class="footer-container">
+      <div class="footer-copy">
+        <p class="footer-copy--intro">Looking for a cool product and<br>an even cooler team to work with.</p>
+        <p class="footer-copy--email">
+          <a class="salutation" href="mailto:hello@christianalai.com">Say what's up&#46;</a>
+        </p>
+      </div>
+      <div class="footer-contact-links">
+        <ul>
+          <li><a href="img/Resume.png" target=_blank>Resume</a></li>
+          <li><a href="https://www.linkedin.com/in/christianalai/" target=_blank>LinkedIn</a></li>
+          <li><a href="https://medium.com/@clai1018" target=_blank>Medium</a></li>
+          <li><a href="https://twitter.com/clai1018" target=_blank>Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://rawgit.com/mattboldt/typed.js/v2.0.6/lib/typed.min.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

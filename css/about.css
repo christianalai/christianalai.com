@@ -1,0 +1,91 @@
+body {
+  transition: 1s opacity;
+  opacity: 1;
+  margin: 0;
+}
+
+body.fade-out {
+  transition: none;
+  opacity: 0;
+}
+
+
+.about-container {
+  margin: 10% 5% 0 5%;
+  color: #EC4557;
+}
+
+.about-container + footer {
+  margin-top: 10%;
+}
+
+/*.about-container .salutation {
+  color: rgba(236, 69, 87, 0.3);
+  font-family: 'SF Pro Display';
+  letter-spacing: -13px;
+  font-style: italic;
+  margin-bottom: 5%;
+  font-weight: 600;
+  font-size: 250px;
+}*/
+
+.about-container .salutation {
+  width: 80%;
+  margin-bottom: 4%;
+}
+
+.about-container h2 {
+  font-family: 'SF Pro Text';
+  font-weight: bold;
+  margin: 0;
+}
+
+.about-container p {
+  font-size: 18px;
+}
+
+.copy-container {
+  margin-top: 5%;
+  font-size: 20px;
+  font-family: 'SF Pro Text';
+}
+
+/*----------------- RESPONSIVE -----------------*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .about-container {
+    text-align: center;
+  }
+
+  .about-container .salutation {
+    letter-spacing: -5px;
+    font-size: 120px;
+    margin: 10% 0;
+  }
+
+  .copy-container {
+    text-align: left;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about-container {
+    margin: 8% 15% 0 15%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .about-container {
+    margin: 8% 19% 0 20%;
+  }
+}
+
+@media (min-width: 1281px) {
+  .about-container {
+    margin: 8% 36% 0 20%;
+  }
+}

@@ -1,0 +1,162 @@
+body {
+  transition: 1s opacity;
+  opacity: 1;
+  margin: 0;
+}
+
+body.fade-out {
+  transition: none;
+  opacity: 0;
+}
+
+.grey-container {
+  background-color: #fafafa;
+  padding: 2.4% 0;
+  margin: 2%;
+}
+
+.project-container {
+  margin-top: 8%;
+}
+
+.project-container .project-title {
+  font-family: 'SF Pro Display';
+  font-weight: bold;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.project-container .summary-container {
+  background-color: #262626;
+  color: #FFFFFF;
+}
+
+.project-container .summary-container,
+.project-container .tldr-container  {
+  padding: 8% 0;
+}
+
+.summary-container h3 {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  color: #686868;
+}
+
+.summary-container p {
+  font-size: 16px;
+}
+
+.summary-container .tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tldr-container {
+  margin-bottom: 4%;
+}
+
+.tldr-container > .container-title,
+.process-container > .container-title {
+  font-size: 60px;
+  margin-top: 7%;
+}
+
+.container-title {
+  font-weight: bold;
+  margin: 4% 0;
+}
+
+.first-title {
+   margin: 9% 0 3% !important;
+}
+
+.summary-container h3 {
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  color: #686868;
+}
+
+.summary-container p {
+  font-size: 16px;
+}
+
+.summary-container .tasks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tldr-container {
+  margin-bottom: 4%;
+}
+
+.insights-container {
+  font-family: 'SF Pro Text';
+  margin-top: 3%;
+}
+
+.insights-container h4 {
+  font-size: 20px;
+  margin: 5% 0;
+}
+
+.insight {
+  padding: 2% 3% 1% !important;
+  color: #FFFFFF;
+  margin: 1%;
+}
+
+.insight h4 {
+  margin: 10% 0;
+}
+
+.insight h6 {
+  font-size: 14px;
+}
+
+.insight p {
+  font-size: 14px;
+}
+
+.analyses-container {
+  margin: 3%;
+}
+
+.analysis-container:nth-child(2) {
+  margin: 4% 0;
+}
+
+.analysis-container .media-body img {
+  margin-bottom: 7%;
+}
+
+.analysis-container h6,
+.user-persona-container h6 {
+  font-weight: bold;
+}
+
+.user-persona-container .media {
+  margin-bottom: 4%;
+}
+
+.user-persona-container img {
+  width: 28%;
+}
+
+/*----------------- RESPONSIVE -----------------*/
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media (min-width: 1025px) {
+  .project-container .summary-container,
+  .project-container .tldr-container  {
+    padding: 3% 0;
+  }
+}
+

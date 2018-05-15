@@ -1,0 +1,214 @@
+.default-footer {
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: normal;
+  background-color: #222222;
+  color: #FFFFFF;
+  margin-top: 10%;
+}
+
+.footer-container {
+  margin: 10% 5% 0 5%;
+}
+
+.footer-copy {
+  letter-spacing: 1.1px;
+  line-height: 42px;
+  padding: 8% 0 2%;
+}
+
+.footer-copy--intro {
+  font-weight: normal;
+  font-size: 36px;
+}
+
+.footer-copy--email {
+  font-weight: normal;
+  font-size: 28px;
+  margin-top: 2%;
+  width: 30%;
+}
+
+.footer-copy--email a:link,
+.footer-copy--email a:visited,
+.footer-copy--email a:hover {
+  text-decoration: none;
+}
+
+.footer-copy--email .salutation {
+  border-bottom: 3px solid #FFFFFF;
+  background: transparent;
+  display: inline-block;
+  white-space: nowrap;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 1% 0;
+  background-image: linear-gradient(180deg,transparent 0,#FFFFFF 0);
+  background-position: 0 2.2em;
+  background-repeat: no-repeat;
+  -webkit-transition: background-position 300ms ease-out;
+  -ms-transition: background-position 300ms ease-out;
+  -moz-transition: background-position 300ms ease-out;
+  -o-transition: background-position 300ms ease-out;
+  transition: background-position 300ms ease-out;
+}
+
+.footer-copy--email .salutation:hover {
+  background-position: 0;
+  cursor: pointer;
+  color: #222222;
+}
+
+.footer-contact-links {
+  letter-spacing: 1.3px;
+  padding-bottom: 5%;
+  font-size: 14px;
+}
+
+.footer-contact-links ul {
+  cursor: pointer;
+  padding: 0;
+}
+
+.footer-contact-links li {
+  list-style: none;
+}
+
+.footer-contact-links li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer-contact-links li a:hover {
+  color: #9B9B9B;
+}
+
+/*PROJECT FOOTER*/
+.project-footer {
+  margin-top: 10%;
+  padding: 0;
+}
+
+.project-footer .project-footer-copy {
+  padding-left: 10% !important;
+}
+
+.project-footer .footer-copy--intro {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.project-footer .footer-copy--email {
+  font-size: 24px;
+}
+
+.footer-copy--email .salutation {
+  background-position: 0 3em;
+}
+
+.project-footer .footer-contact-links {
+  font-size: 14px;
+}
+
+.project-footer .left {
+  background-color: #222222;
+  color: #FFFFFF;
+}
+
+.project-footer .right-section a:link,
+.project-footer .right-section a:visited,
+.project-footer .right-section a:hover {
+  text-decoration: none;
+}
+
+.project-footer .footer-right-container {
+  margin-left: 10%;
+  padding: 8% 0;
+}
+
+.project-footer .footer-right-container .arrow {
+  margin-left: 2%;
+}
+
+.project-footer .footer-right-container p {
+  margin: 0;
+}
+
+.case-study-copy {
+  margin-top: 8%;
+}
+
+.case-study-copy h1 {
+  font-weight: bold;
+}
+
+/*----------------- RESPONSIVE -----------------*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .footer-copy {
+    padding: 10% 0 0 0;
+  }
+
+  .footer-copy--intro {
+    line-height: 30px;
+    font-size: 24px;
+  }
+
+  .footer-copy--email {
+    font-size: 20px;
+  }
+
+  .footer-contact-links {
+    padding-bottom: 10%;
+    font-size: 14px;
+  }
+
+  .project-footer .project-footer-copy {
+    padding-left: 5% !important;
+  }
+
+  .project-footer .footer-copy--intro {
+    line-height: 26px;
+    font-size: 20px;
+  }
+
+  .project-footer .footer-copy--email {
+    font-size: 18px;
+  }
+
+  .project-footer .footer-right-container {
+      padding: 5% 0;
+      margin-left: 5%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    margin: 0 15% 0 15%;
+  }
+
+  .project-footer .project-footer-copy {
+    padding: 5% !important;
+  }
+
+  .project-footer .footer-copy--intro {
+    line-height: 24px;
+    font-size: 20px;
+  }
+
+  .project-footer .footer-copy--email {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .project-footer .footer-right-container {
+    padding: 16% 0;
+  }
+}
+
+@media (min-width: 1025px) {
+  .footer-container {
+    margin: 0 20% 0 20%;
+  }
+}
+
+
