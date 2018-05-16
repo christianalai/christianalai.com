@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Typing Effect
-  var options = {
+  let options = {
     strings: [
       "^800 crafting beautiful products.",
       "^800 telling the right story.",
@@ -14,5 +14,6 @@ document.addEventListener("DOMContentLoaded", function() {
     typeSpeed: 50
   };
 
-  var typed = new Typed(".typed-element", options);
+  let typedElementExists =  $('.typed-element').length === 1;
+  let typed = typedElementExists ? new Typed(".typed-element", options) : null;
 });
