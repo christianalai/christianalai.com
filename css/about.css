@@ -15,6 +15,13 @@ body.fade-out {
   color: #EC4557;
 }
 
+.about-container a:link,
+.about-container a:visited,
+.about-container a:hover {
+  color: #EC4557;
+  text-decoration: none;
+}
+
 .about-container + footer {
   margin-top: 10%;
 }
