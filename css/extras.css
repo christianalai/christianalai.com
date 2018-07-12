@@ -1,0 +1,83 @@
+.extras .fine-print {
+	font-size: 14px;
+	color: #aeaeae;
+	margin-top: 2%;
+	margin: 1% 0 5% 0;
+}
+
+.extras .project-title {
+	margin-bottom: 1%;
+}
+
+.extras .project-subtitle {
+	margin-bottom: 4%;
+	font-weight: bold;
+}
+
+.extras h2 {
+	margin-bottom: 3%;
+	font-weight: bold;
+}
+
+.extras .img-container {
+	margin: 2%;
+}
+
+.extras .link {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.extras .youcare-container .link {
+    color: #212529;
+	border-bottom: 3px solid #212529;
+}
+
+.extras .youcare-container a:hover {
+    color: #9B9B9B;
+	border-bottom: 3px solid #9B9B9B;
+}
+
+.extras .compass-container .link,
+.extras .simple-price-container .link {
+    color: #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.extras .compass-container a:hover,
+.extras .simple-price-container a:hover  {
+    color: #979797;
+	border-bottom: 3px solid #979797;
+}
+
+.extras .compass-container,
+.extras .simple-price-container {
+	margin-top: 8%;
+}
+
+.extras .subtext {
+	font-size: 14px;
+}
+
+.extras .compass-img-container {
+	margin-top: 4%;
+}
+
+.extras .simple-price-img {
+	background-color: #000000;
+}
+
+.extras + .project-footer {
+	margin-top: 0;
+}
+
+.extras + .project-footer .about-section {
+  background-color: #ec4557;
+  color: #FFFFFF;
+}
+
+.extras + .project-footer .about-section a:link,
+.extras + .project-footer .about-section a:visited,
+.extras + .project-footer .about-section a:hover {
+  color: #FFFFFF;
+}

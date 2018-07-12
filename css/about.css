@@ -9,52 +9,52 @@ body.fade-out {
   opacity: 0;
 }
 
-
-.about-container {
-  margin: 10% 5% 0 5%;
-  color: #EC4557;
-}
-
-.about-container a:link,
-.about-container a:visited,
-.about-container a:hover {
-  color: #EC4557;
-  text-decoration: none;
-}
-
-.about-container + footer {
-  margin-top: 10%;
-}
-
-/*.about-container .salutation {
-  color: rgba(236, 69, 87, 0.3);
-  font-family: 'SF Pro Display';
-  letter-spacing: -13px;
-  font-style: italic;
-  margin-bottom: 5%;
-  font-weight: 600;
-  font-size: 250px;
-}*/
-
-.about-container .salutation {
-  width: 80%;
+.salutation-container {
   margin-bottom: 4%;
 }
 
-.about-container h2 {
-  font-family: 'SF Pro Text';
-  font-weight: bold;
-  margin: 0;
+.salutation-img {
+  width: 80%;
+  margin-bottom: 4%;
+  padding: 0!important;
 }
 
-.about-container p {
+.about-copy-container {
+  padding: 5% 0;
+}
+
+.about-copy-container > .margin-control {
+  margin-top: 0;
+}
+
+.margin-control {
+  margin: 10% 5% 0 5%;
+}
+
+.about-copy-container {
+  background-color: #EC4557;
+  color: white;
+}
+
+.about-copy-container a:link,
+.about-copy-container a:visited,
+.about-copy-container a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.about-copy-container p {
   font-size: 18px;
 }
 
-.copy-container {
-  margin-top: 5%;
-  font-size: 20px;
+.about-copy-sub-container {
   font-family: 'SF Pro Text';
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.about-copy-container + .default-footer {
+  margin-top: 0;
 }
 
 /*----------------- RESPONSIVE -----------------*/
@@ -64,13 +64,13 @@ body.fade-out {
     text-align: center;
   }
 
-  .about-container .salutation {
+/*  .about-container .salutation {
     letter-spacing: -5px;
     font-size: 120px;
     margin: 10% 0;
-  }
+  }*/
 
-  .copy-container {
+  .about-copy-sub-container {
     text-align: left;
     margin-top: 10%;
   }
@@ -80,19 +80,31 @@ body.fade-out {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .about-container {
+  .about-copy-container > .margin-control {
+    margin-top: 0;
+  }
+
+  .margin-control {
     margin: 8% 15% 0 15%;
   }
 }
 
 @media (min-width: 1025px) {
-  .about-container {
+  .about-copy-container > .margin-control {
+    margin-top: 0;
+  }
+
+  .margin-control {
     margin: 8% 19% 0 20%;
   }
 }
 
 @media (min-width: 1281px) {
-  .about-container {
+  .about-copy-container > .margin-control {
+    margin-top: 0;
+  }
+
+  .margin-control {
     margin: 8% 36% 0 20%;
   }
 }

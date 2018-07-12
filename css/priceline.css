@@ -4,14 +4,14 @@
   color: #aeaeae;
 }
 
-.project-footer .about-section {
-  background-color: #ec4557;
+.priceline + .project-footer .extras-section {
+  background-color: #373737;
   color: #FFFFFF;
 }
 
-.project-footer .about-section a:link,
-.project-footer .about-section a:visited,
-.project-footer .about-section a:hover {
+.priceline + .project-footer .extras-section a:link,
+.priceline + .project-footer .extras-section a:visited,
+.priceline + .project-footer .extras-section a:hover {
   color: #FFFFFF;
 }
 
