@@ -8,7 +8,7 @@ body {
   transition: 1s opacity;
   opacity: 1;
   margin: 0;
-  background: #e2e0dc;
+  background: #d3d2d0 !important;
   font-family: "Garamond", serif !important;
 }
 
