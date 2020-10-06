@@ -1,0 +1,17 @@
+header {
+	display: inline-flex !important;
+  justify-content: space-between;
+	width: 100%;
+  padding: 3vh 1vw;
+}
+
+header .logo {
+  width: 160px;
+}
+
+nav > a:link,
+nav > a:visited,
+nav > a:hover {
+  color: black !important;
+  text-decoration: none!important;
+}

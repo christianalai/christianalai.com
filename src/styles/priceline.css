@@ -1,0 +1,28 @@
+.priceline .label {
+  margin-bottom: 1vh;
+}
+
+.feature-container {
+  margin: 15vh 0;
+}
+
+.priceline .grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.priceline .summary-container {
+  margin: 5vh 10vw 0 0 ;
+}
+
+.priceline .priceline-heading {
+  font-family: 'Roboto Mono', serif;
+}
+
+.priceline .before-caption,
+.priceline .after-caption {
+  margin-top: 2vh;
+}
+
+.priceline .mockup-container {
+  margin-top: 5vh;
+}

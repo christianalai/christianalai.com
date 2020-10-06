@@ -1,0 +1,344 @@
+.blockfolio {
+  margin-bottom: 20vh;
+}
+
+.image-caption--demographics {
+  background-color: #F4F4F4;
+  padding: 14vh 8vw;
+}
+
+.user-personas-container {
+  margin-bottom: 20vh;
+}
+
+.user-personas--images {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.image-caption--caption {
+  flex-direction: column;
+}
+
+.image-caption--caption a {
+  display: contents;
+}
+
+.carousel-preference-test {
+  background-color: #ECECE8;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+	display: inline-flex !important;
+}
+
+.carousel-caption {
+  color: unset !important;
+  right: unset !important;
+  position: unset !important;
+  left: unset !important;
+  bottom: unset !important;
+  z-index: unset !important;
+	padding: unset !important;
+  width: 30% !important;
+  align-self: center;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', serif;
+  font-weight: 400;
+}
+
+.carousel-control-prev {
+  display: none;
+}
+
+.carousel-control-next-icon {
+  background-image: url(../images/blockfolio/next-arrow.png);
+  width: 70px;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: white;
+}
+
+.before-after-container {
+  position: relative;
+}
+
+.before-after-container .carousel-before-after {
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+  background: linear-gradient(to right, #CDC9C2 50%, #7C8887 0%);
+}
+
+.before-after-container .grid div {
+  grid-column: span 1;
+}
+
+.before-after-container .carousel {
+  height: inherit;
+  position: relative;
+}
+
+.before-after-container .carousel-inner {
+  position: absolute;
+  bottom: 0;
+}
+
+.before-image,
+.after-image {
+  width: 50%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.blockfolio .before-caption {
+  position: absolute;
+  margin-left: 2vw;
+}
+
+.blockfolio .after-caption {
+  position: absolute;
+  left: 50%;
+  margin-left: 2vw;
+}
+
+.carousel-inner.carousel-item {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  position: absolute;
+  transition: opacity 2800ms ease-in-out;
+}
+
+.carousel-inner .carousel-item:first-of-type {
+  position: relative;
+}
+
+.carousel-inner .active {
+  opacity: 1;
+}
+
+.new-features-container {
+  margin: 12vh 0;
+}
+
+.new-features-images div {
+  width: 80%;
+}
+
+.new-features-images > div > p {
+  margin: 3vh 0 10vh 0;
+}
+
+.impact-container {
+  margin-bottom: 10vh;
+}
+
+.testimonials-container {
+  margin: 8vh 8vw 0 1vw;
+}
+
+.quotation-mark {
+  width: 5vw;
+  position: absolute;
+  opacity: 50%;
+  z-index: -1;
+}
+
+.testimonial {
+  width: 75%;
+  justify-self: center;
+  margin-bottom: 5vh
+}
+
+.testimonial h6 {
+  font-weight: 600;
+  margin-bottom: 2vh;
+}
+
+.attribution {
+  text-align: right;
+}
+
+.metrics-container {
+  padding-top: 10vh;
+}
+
+.metrics-container p {
+  margin-bottom: 5vh;
+}
+
+.metric-graph {
+  width: 90%;
+}
+
+@media screen and (min-width: 320px) {
+  .image-caption--affinity-map {
+    grid-column: span 3;
+    padding-right: 3vw;
+  }
+  
+  .blockfolio .image-caption--caption {
+    width: 400px;
+    /* display: flex; */
+    margin-top: 5vh;
+  }
+
+  .image-caption--demographics {
+    grid-column: span 3;
+    margin-left: -7vw;
+  }
+
+  .caption--top {
+    display: none;
+  }
+
+  .caption--bottom {
+    width: auto;
+    display: flex;
+    grid-column: span 3;
+    padding: 0 3vw 0 5vw;
+  }
+
+  .user-personas--images div {
+    grid-column: span 2;
+  }
+
+  .carousel-preference-test {
+    grid-column: span 4;
+    margin-left: -7vw;
+  }
+
+  .carousel-caption {
+    position: absolute !important;
+    top: 3vh;
+    width: 100% !important;
+  }
+
+  .carousel-preference-test .gatsby-image-wrapper {
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .carousel-before-after .gatsby-image-wrapper {
+    width: 40%;
+  }
+
+  .before-after-container {
+    margin-top: 8vh;
+  }
+
+  .before-after-container .carousel-before-after {
+    height: 30vh;
+  }
+
+  .metric:nth-child(1) {
+    margin-bottom: 8vh;
+  }
+
+  .metrics-container p {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .before-after-container .carousel-before-after {
+    height: 40vh;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .image-caption--affinity-map {
+    grid-column: span 2;
+    padding-right: 0;
+  }
+
+  .image-caption--caption {
+    width: 275px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+  }
+
+  .affinity .image-caption--caption {
+    padding: 0 4vw 0 3vw;
+  }
+
+  .preference .image-caption--caption {
+    padding: 0 6vw 0 0;
+  }
+
+  .image-caption--demographics {
+    grid-column: span 2;
+    margin-left: 0;
+  }
+
+  .caption--top {
+    display: flex;
+    padding: 0 2vw;
+  }
+
+  .caption--bottom {
+    display: none !important;
+  }
+
+  .user-personas--images div {
+    grid-column: span 1;
+  }
+
+  .carousel-preference-test {
+    grid-column: span 3;
+    margin-left: 0;
+  }
+
+  .carousel .carousel-caption {
+    position: unset !important;
+  }
+
+  .carousel-caption {
+    width: 30% !important;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', serif;
+    font-weight: 400;
+  }
+
+  .carousel-preference-test .gatsby-image-wrapper {
+    width: 60%;
+    margin-top: 0;
+  }
+
+  .carousel-before-after .gatsby-image-wrapper {
+    width: 40%;
+  }
+
+  .before-after-container {
+    margin-top: 18vh;
+  }
+
+  .before-after-container .carousel-before-after {
+    height: 50vh;
+  }
+
+  .metric:nth-child(1) {
+    margin-bottom: 15vh;
+  }
+
+  .metrics-container p {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .before-after-container .carousel-before-after {
+    height: 60vh;
+  }
+}

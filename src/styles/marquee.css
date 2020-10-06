@@ -1,0 +1,61 @@
+.marquee {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.marquee a {
+  color: #283EFF;
+  text-decoration: underline !important;
+}
+
+.marquee-container {
+  display: flex;
+  height: 45px;
+  font-size: 0.8125rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff; 
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee-container div {
+  position: absolute;
+  width: 100%;
+  left: 100%;
+  align-self: center;
+} 
+
+.marquee-container a {
+  margin: 0 5px;
+}
+
+.marquee-container .marquee-one {
+  animation: marquee 60s linear infinite;
+}
+
+.marquee-container .marquee-two {
+  animation: marquee 60s linear 15s infinite;
+}
+
+.marquee-container .marquee-three {
+  animation: marquee 60s linear 30s infinite;
+}
+
+.marquee-container .marquee-four {
+  animation: marquee 60s linear 45s infinite;
+}
+
+.marquee-container:hover div {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% { left: 100%; }
+  50% { left: -100%; }
+  100% {left: -100%; }
+}

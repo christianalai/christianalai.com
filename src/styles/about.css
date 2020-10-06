@@ -1,0 +1,104 @@
+.about {
+  display: inline-flex;
+  margin-top: 15vh;
+}
+
+.about--copy {
+  width: 65%;
+}
+
+.about--intro {
+  display: flex;
+  flex-direction: row;
+  font-family: neue-haas-unica, sans-serif;
+  width: 60%;
+  font-size: 2.5rem;
+}
+
+.bitcoin-lengua {
+  width: 10vw;
+  /* align-self: flex-end; */
+  /* margin-top: 3vh
+   */
+  /* position: absolute;
+  left: 50vw;
+  top: 50vh; */
+  overflow: hidden;
+  /* width: 25vw; */
+  position: fixed;
+  right: 15vw;
+  bottom: 40vh;
+  z-index: 2;
+  
+}
+
+ul {
+  padding: unset;
+  list-style-type: none;
+}
+
+.about--fun-facts {
+margin: 8vh 0 0 4vw;
+font-size: 12px;
+}
+
+.about--fun-facts a {
+  text-decoration: underline;
+}
+
+.about--fun-facts li {
+  background-color: white;
+  margin: 3px 0;
+  width: fit-content;
+  padding: 0 5px;
+}
+
+/* .spotify-embed {
+  flex-direction: column;
+  margin: 0 10vw 0 0;
+  z-index: 3;
+} */
+
+.facts-title {
+  font-size: 12px;
+  padding: 0 5px;
+  background-color: white;
+  width: fit-content;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.fingers {
+  /* justify-content: center; */
+  /* align-self: flex-end; */
+  height: 3vh;
+  text-align: center;
+  margin: 0 auto 0 auto;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
+.fingers span {
+  margin: 0 2vw;
+}
+
+.bounce-1 {
+  animation-name: bounce;
+  animation-timing-function: linear;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+.about-image {
+  overflow: hidden;
+  width: 25vw;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}

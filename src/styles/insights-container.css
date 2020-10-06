@@ -1,0 +1,51 @@
+.project-insights {
+  background-color: #FFFFFF;
+  font-family: neue-haas-unica, sans-serif;
+}
+
+.project-insights .project-heading {
+  margin: 8vh 0 5vh;
+}
+
+.project-insights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.project-insights li {
+  grid-column: span 1;
+}
+
+.project-insights .title {
+  height: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid #B5AD9D;
+}
+
+.project-insights .summary {
+  white-space: pre-wrap;
+  margin-top: 3vh;
+}
+
+@media screen and (min-width: 320px) {
+  .project-insights {
+    margin-top: 8vh;
+    padding: 1vh 7vw;
+  }
+
+  .project-insights li {
+    padding: 0 5vw 5vh 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project-insights {
+    margin-top: -8vh;
+    padding: 8vh 4vw 8vh 7vw;
+  }
+
+  .project-insights li {
+    padding-right: 10vw;
+  }
+}

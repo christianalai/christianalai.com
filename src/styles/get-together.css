@@ -1,0 +1,191 @@
+.get-together {
+  /* margin-bottom: 20vh; */
+}
+
+.behind-the-scenes {
+  margin-top: 10vh;
+}
+
+.behind-the-scenes .image-caption--caption {
+  width: 500px;
+}
+
+.behind-the-scenes .project-heading {
+  margin-bottom: 2vh;
+}
+
+.get-together .feature-description {
+  margin-top: 5vh;
+}
+
+.get-together .image-caption--caption {
+  justify-self: unset;
+  margin-left: 7vw;
+}
+
+.get-together .description-container {
+  margin-top: 20vh;
+}
+
+.get-together .user-persona {
+  margin-bottom: 10vh;
+}
+
+.solution-header .project-heading {
+  align-self: end;
+}
+
+.solution-steps {
+  display: flex;
+  margin-top: 5vh;
+}
+
+.solution-steps .step-container {
+  background-color: white;
+  color: black;
+  padding: 5vh 2vw 3vh;
+  display: flex;
+}
+
+.step-container:nth-child(1) {
+  background-color: #F0F0F0;
+}
+
+.step-container:nth-child(2) {
+  position: absolute;
+  margin: 12vh 0 0 13vw;
+}
+
+.step-container .number {
+  margin-right: 1vw;
+}
+
+.solution-summary {
+  margin-left: 3vw;
+}
+
+.solution-summary--top, 
+.solution-summary--bottom {
+  padding-right: 5vw;
+}
+
+.solution-summary--bottom {
+  margin-top: 18vh;
+}
+
+.get-together .summary-container {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+}
+
+.mockup-header {
+  font-family: neue-haas-unica, sans-serif;
+}
+
+.entry-point.mockup-container {
+  background-color: unset;
+}
+
+.triptych .mockup-images .gatsby-image-wrapper {
+  width: 80%;
+}
+
+/* .get-together .mockup-header {
+  width: fit-content;
+} */
+.get-together .grid {
+  grid-gap: 1rem;
+}
+
+@media screen and (min-width: 320px) {
+  .get-together .image-caption--caption p {
+    margin-bottom: 10vh;
+  }
+
+  .get-together .user-persona {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .get-together .user-persona div {
+    grid-column: span 2;
+  }
+
+  .get-together .user-persona .gatsby-image-wrapper:nth-child(1) {
+    margin: 0 5vh ;
+  }
+
+  .get-together .user-persona .gatsby-image-wrapper:nth-child(2) {
+    margin: 0 5vh;
+  }
+
+  .get-together .solution-header .project-heading {
+    grid-column: span 2;
+  }
+
+  .get-together .solution-header .solution-summary {
+    grid-column: span 2;
+    margin-left: 0;
+    /* padding-right: 15vw; */
+  }
+      
+  .get-together .solution-steps .step-container {
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .get-together .solution-steps .step-container {
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .get-together .solution-header {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 15vh;
+    padding: 12vh 10vw 12vh 7vw;
+  }
+
+  .get-together .user-persona div {
+    grid-column: span 1;
+  }
+
+  .get-together .user-persona .gatsby-image-wrapper:nth-child(1) {
+    margin: 0 .5vw 12vh 0;
+  }
+
+  .get-together .user-persona .gatsby-image-wrapper:nth-child(2) {
+    margin: 12vh 0 0 .5vw;
+  }
+
+  .get-together .solution-header .project-heading {
+    grid-column: span 1;
+  }
+
+  .get-together .solution-header .solution-summary {
+    grid-column: span 1;
+  }
+
+  .get-together .solution-steps .step-container {
+    width: 20vw;
+  }
+
+  .get-together .summary-container {
+    width: 60%;
+  }
+
+  .entry-point .mockup-images {
+    width: 50%;
+  }
+
+  .triptych .mockup-description {
+    width: 60%;
+    margin: 8vh 0;
+  }
+
+  .mockup-description p {
+    width: 75%;
+  }
+
+}

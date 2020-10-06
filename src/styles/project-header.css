@@ -1,0 +1,132 @@
+.project-header {
+  width: 100%;
+  height: fit-content;
+  background: #86837b;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.project-header h4 {
+  font-weight: normal;
+}
+
+.project-header--title h6 {
+  color: #C6BFAE;
+}
+
+.project-header p {
+  font-family: neue-haas-unica, sans-serif;
+}
+
+.project-header--summary {
+  padding-right: 6vw;
+  border-bottom: 1px solid white;
+}
+
+.project-header--sub h6 {
+  font-weight: normal;
+  color: #C2BEB3;
+  letter-spacing: 2px;
+}
+
+.project-header--sub {
+  display: flex;
+  font-size: 0.875rem;
+}
+
+.project-header--sub div {
+  width: 50%;
+  padding-right: 3vw;
+}
+
+
+@media screen and (min-width: 320px) {
+  .project-header section:nth-child(1),
+  .project-header--sub div:nth-child(1),
+  .project-header--sub div:nth-child(2) {
+    padding: 5vh 6vw 2vh 6vw;
+  }
+
+  .project-header--summary,
+  .project-header--sub {
+    border-left: none;
+  }
+
+  .project-header section:nth-child(2) {
+    padding: 1vh 6vw 4vh 6vw;
+  }
+
+  .project-header--sub div:nth-child(1) {
+    border-right: 1px solid white;
+  }
+
+  .project-header {
+    grid-template-rows: repeat(1, 100px);
+  }
+  
+  .project-header--title {
+    grid-column: span 4;
+  }
+
+  .project-header--summary {
+    grid-column: span 4;
+  }
+
+  .project-header--sub {
+    grid-column: span 4;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .project-header {
+    grid-template-rows: repeat(2, auto);
+  }
+
+  .project-header section:nth-child(1),
+  .project-header section:nth-child(2) {
+    padding: 5vh 3vw 0 3vw;
+  }
+
+  .project-header--sub div:nth-child(1),
+  .project-header--sub div:nth-child(2) {
+    padding: 3vh 3vw 0 3vw;
+  }
+
+  .project-header--summary,
+  .project-header--sub {
+    border-left: 1px solid white;
+  }
+
+  .project-header--title {
+    grid-column: span 2;
+  }
+  
+  .project-header--summary {
+    grid-column: span 2;
+  }
+
+  .project-header--sub {
+    grid-column: span 2 / 5;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .project-header section:nth-child(1) {
+    padding: 6vh 8vw 0 1vw;
+  }
+  
+  .project-header section:nth-child(2) {
+    padding: 6vh 12vw 4vh 3vw;
+  }
+
+  .project-header--sub div:nth-child(1),
+  .project-header--sub div:nth-child(2) {
+    padding: 6vh 6vw 4vh 3vw;
+  }
+
+  /* .project-header--sub div {
+    padding: 4vh 7vw 3vh 3vw;
+  } */
+}

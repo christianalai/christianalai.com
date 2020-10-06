@@ -1,0 +1,256 @@
+/* html {
+  height: initial;
+} */
+
+body {
+	background: #e2e0dc !important;
+	/* background: #eaeaea !important; */
+	/* background: #B6A88A !important; */
+	font-family: 'Roboto Mono', serif !important;
+	color: black;
+	margin: 0;
+	white-space: pre-wrap;
+	/* TODO: SEE IF THIS PRE-WRAP AFFECTS EVERYTHING AND REMOVE THE OTHER ONE */
+  letter-spacing: 0.2px;
+/* TODO: Reconcile letter-spacing  */
+}
+
+a:link, a:visited, a:hover {
+	/* color: #1591D7; */
+	text-decoration: none;
+}
+
+.hidden {
+  position: absolute;
+  /* overflow: hidden; */
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+p {
+	line-height: 1.5;
+}
+
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(12px + 6 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* GRAINY BACKGROUND */
+body::before {
+	animation: grain 8s steps(10) infinite;
+	background-image: url(../images/noise.png);
+	content: '';
+	height: 300%;
+	left: -50%;
+	opacity: 0.6;
+	position: fixed;
+	top: -100%;
+	width: 300%;
+	z-index: -1;
+}
+
+@keyframes grain {
+  0%, 100% { transform:translate(0, 0); }
+  10% { transform:translate(-5%, -10%); }
+  20% { transform:translate(-15%, 5%); }
+  30% { transform:translate(7%, -25%); }
+  40% { transform:translate(-5%, 25%); }
+  50% { transform:translate(-15%, 10%); }
+  60% { transform:translate(15%, 0%); }
+  70% { transform:translate(0%, 15%); }
+  80% { transform:translate(3%, 35%); }
+  90% { transform:translate(-10%, 10%); }
+}
+
+.grid {
+	display: grid;
+}
+
+.grid-auto-fit {
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.grid-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.label {
+	text-transform: uppercase;
+}
+
+.project-heading {
+	color: #747068;
+	font-family: 'Roboto Mono', serif;
+	font-weight: 500;
+	text-transform: lowercase;
+	margin: 8vh 0 5vh;
+}
+
+.subheader {
+  letter-spacing: 1px;
+  margin-bottom: 5vh;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.mockup-header {
+	letter-spacing: 1px;
+	margin: 4vh 0 3vh;
+	text-transform: lowercase;
+	font-size: 20px;
+}
+
+.mockup-container {
+  background-color: #CDC9C2;
+	padding: 5vh 7vw;
+	margin: 5vh 2vw;
+}
+
+.dark {
+	color: #747068;
+}
+
+.light {
+	color: #ffffff;
+}
+
+.green-background {
+	background-color: #9b9c91;
+}
+
+/* Is this used? */
+.project {
+  font-family: neue-haas-unica, sans-serif;
+}
+
+.push-left {
+	margin-left: 7vw !important;
+}
+
+/* .push-top {
+	margin-top: 8vh;
+} */
+
+.offset-left {
+	margin-left: -7vw !important;
+}
+
+.offset-top {
+	margin-top: -8vh !important;
+}
+
+.solution-header {
+	background-color: #000000;
+	/* background-color: #9b9c91; */
+	/* background-color: #8e9285; */
+	color: #ffffff;
+}
+
+.before-caption,
+.after-caption {
+  bottom: 0;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+.feature-description {
+  font-family: neue-haas-unica, sans-serif;
+}
+
+
+.analysis-comparison {
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 0 1vw;
+}
+
+.analysis-column .gatsby-image-wrapper {
+  width: 40%;
+  margin: 10vh 0 5vh;
+}
+
+.analysis-column {
+  width: 30%;
+  padding: 15vh 4vw 10vh;
+  background-color: #ECECE8;
+}
+
+.analysis-column p {
+  margin: 0;
+}
+
+.analysis-column .con {
+  margin-top: 4vh;
+}
+
+.conclusion-container {
+  background-color: black;
+  color: white;
+  padding: 10vh 0 10vh 2vw;
+}
+
+.conclusion-container .mockup-description:nth-child(2) {
+  margin-top: 10vh;
+}
+
+@media screen and (min-width: 320px) {
+	.solution-header {
+		padding: 1vh 10vw 10vh 7vw;
+	}
+
+  .feature-description {
+		/* margin: 6vh 0; */
+		margin-bottom: 6vh;
+    width: 80%;
+	}
+	
+	.get-together .analysis-column {
+		/* grid-column: span 1; */
+		width: 100%;
+	}
+	
+	.conclusion-container .mockup-description {
+		width: 80%;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.solution-header {
+		padding: 8vh 55vw 15vh 7vw;
+	}
+
+	.feature-description {
+		/* margin: 10vh 0; */
+		margin-bottom: 10vh;
+    width: 40%;
+	}
+	
+	.conclusion-container .mockup-description {
+		width: 50%;
+	}
+
+	.get-together .analysis-column {
+		width: 30%;
+	}
+
+	.analysis-comparison {
+		display: flex;
+	}
+}
