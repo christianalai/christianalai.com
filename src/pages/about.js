@@ -50,11 +50,11 @@ export default function Home() {
             <ul className="about--fun-facts">
               <div className="facts-title">fun facts</div>
               <li>I <span role="img" aria-label="heart">❤️</span> hotkeys and hot coffee</li>
-              <li>Best way to get to know me is through <span role="img" aria-label="music-note">🎶</span>. <a href="https://open.spotify.com/playlist/2zzajkHZ6FFkXs6GBosdgp?si=lHRNzTF6SLauVqyPMkT2Ew" target="_blank" rel="noreferrer">Some favorites</a></li>
+              <li>Best way to get to know me is through <span role="img" aria-label="music-note">🎶</span>. Here are some <a href="https://open.spotify.com/playlist/2zzajkHZ6FFkXs6GBosdgp?si=lHRNzTF6SLauVqyPMkT2Ew" target="_blank" rel="noreferrer">favorites</a></li>
               <li>I'm trying to <a href="https://www.notion.so/f8d7bc3291994f44ba67fa1ef1978b83?v=f6012aede170404eb59f9128db8fcdb4" target="_blank" rel="noreferrer">read more</a></li>
               <li>Slowly learning Japanese for fun</li>
               <li>The social platform I use the most is Reddit</li>
-              <li>Really into fermented foods; interested in brewing <Link to="/kombucha" target="_blank" rel="noreferrer">kombucha</Link></li>
+              <li>Really into fermented foods; interested in brewing <Link to="/kombucha" target="_blank" rel="noreferrer">kombucha</Link>?</li>
             </ul>
           </div>
         </div>

@@ -60,12 +60,8 @@ font-size: 12px;
 } */
 
 .facts-title {
-  font-size: 12px;
-  padding: 0 5px;
-  background-color: white;
-  width: fit-content;
-  text-decoration: underline;
-  text-align: center;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .fingers {
