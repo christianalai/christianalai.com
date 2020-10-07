@@ -74,7 +74,7 @@ export default function BlockfolioSignal() {
         </div>
         <div className="project-insights goals">
           <ul className="grid grid-auto-fit">
-            <li class="goals-column">
+            <li className="goals-column">
               <p className="title">User goals</p>
               <p className="summary">For a first-time user, we wanted the dashboard to be:
                 <ul>
@@ -89,7 +89,7 @@ export default function BlockfolioSignal() {
                 </ul>
               </p>
             </li>
-            <li class="goals-column">
+            <li className="goals-column">
               <p className="title">Business goals</p>
               <p className="summary">
                 <ul>
