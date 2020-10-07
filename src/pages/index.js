@@ -26,6 +26,7 @@ import Cursor from '../animations/cursor';
 // TODO: FIX DOUBLE CLICK ON LINKS
 export default function Index() {
   useEffect(() => {
+    console.log('%c\n\n\n      🔥 🔥 🔥      I hope to chat with you soon. Email me at hello@christianalai.com      🔥 🔥 🔥      \n\n\n', 'background:#928E85; color:#000')
     window.scrollTo(0, 0)
     // const menuEl = document.querySelector('.menu');
     // preload the images set as data attrs in the menu items
