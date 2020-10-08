@@ -7,6 +7,9 @@ var plugins = [{
     },{
       plugin: require('/Users/christianalai/Personal/git/christianalai.com/node_modules/gatsby-plugin-react-head/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/christianalai/Personal/git/christianalai.com/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
+      options: {"plugins":[],"trackingId":"UA-119381164-1"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

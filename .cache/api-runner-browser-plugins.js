@@ -10,4 +10,7 @@ module.exports = [{
     },{
       plugin: require('../node_modules/gatsby-remark-images-zoom/gatsby-browser.js'),
       options: {"plugins":[]},
+    },{
+      plugin: require('../node_modules/gatsby-plugin-gtag/gatsby-browser.js'),
+      options: {"plugins":[],"trackingId":"UA-119381164-1"},
     }]
